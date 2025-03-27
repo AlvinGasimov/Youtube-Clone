@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Klonu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md p-4 flex items-center justify-between position-fixed w-full z-10 top-0">
+        <div class="flex items-center space-x-4">
+            <button id="menu-btn" class="p-2 hover:bg-gray-200 rounded"><img
+                    src="https://www.svgrepo.com/show/509382/menu.svg" width="30" alt="Menu"></button>
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube"
+                    class="w-10">
+            </a>
+        </div>
+        <div class="flex mx-4 justify-end w-full">
+            <input type="text" placeholder="Axtar..." class="w-96 p-2 px-5 border rounded-lg">
+        </div>
+        <div class="flex space-x-4 align-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" alt="Profile"
+                class="h-8 w-8 rounded-full">
+        </div>
+    </nav>
+
+    <div class="flex">
+        <aside id="sidebar" class="w-64 bg-white p-4 shadow-md hidden md:block">
+            <ul class="space-y-4">
+                <li class="flex items-center space-x-3 p-2 rounded">
+                    <a href="index.html" class="flex items-center space-x-3 p-2 rounded">
+                        <img src="https://www.svgrepo.com/show/22031/home-icon-silhouette.svg" alt="Home" class="h-6">
+                        <span>
+                            Ana səhifə
+                        </span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-3 hover:bg-gray-200 p-2 rounded">
+                    <a href="" class="flex items-center space-x-3 hover:bg-gray-200 p-2 rounded">
+                        <img src="https://cdn-icons-png.flaticon.com/512/565/565285.png" alt="Subscriptions"
+                            class="h-6">
+                        <span>
+                            Abunəliklər
+                        </span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-3 hover:bg-gray-200 p-2 rounded">
+                    <a href="" class="flex items-center space-x-3 hover:bg-gray-200 p-2 rounded">
+                        <img src="https://cdn-icons-png.flaticon.com/512/225/225993.png" alt="Library" class="h-6">
+                        <span>
+                            Kitabxana
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+
+        <main class="w-full lg:w-3/4 mt-6 p-6">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/cMBbjQgOFX0?si=Q44PJMhnlAeu78vX"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+            <h1 id="video-title" class="font-semibold text-2xl mt-4 text-gray-800 dark:text-gray-200">
+                Hayatınıza Kimler Kanun Yapıyor?
+            </h1>
+        
+            <div class="flex items-center mt-4">
+                <img src="https://yt3.ggpht.com/ytc/AIdro_n7a02bA95efN5nCJcj7v16D7T7NFP8LxQAyEDZT4ZWFEc=s800-c-k-c0x00ffffff-no-rj"
+                    width="50" class="rounded-full" />
+                <span class="ml-3 text-gray-700 dark:text-gray-300 font-medium">Sosyal Mescid</span>
+            </div>
+            
+            <p id="video-description" class="text-gray-700 dark:text-gray-300 mt-2">
+                4.387 baxış  7 iyl 2018  #ebuhanzala #tevhiddersleri #sosyalmescid
+                Videonun Tamamını Seyretmek İçin
+                "   • Video  "
+
+                (Kısa Kesitler)
+
+                "Hüküm yalnız Allah’a aittir. O' Kendisinden başkasına değil yalnız O’na ibadet etmenizi emretti. Dosdoğru din budur. Fakat insanların çoğu bilmezler." (Yusuf: 40) 
+
+                “Şüphesiz ki her topluluğa; “Allah’a ibadet edin, tağutlardan sakının” diye rasuller gönderdik.” (Nahl: 36)
+
+                "Kim tağutu reddedip Allah'a iman ederse kopmak bilmeyen sapasağlam bir kulpa tutunmuştur." (Bakara: 256)
+
+                Youtube Kanallarına Abone olmak için tıklayınız: 
+
+                ►►►Tevhid Dersleri: https://goo.gl/bJVkNy
+                ►►►Ebu Hanzala Hoca: https://goo.gl/saRHgS
+
+                #ebuhanzala #tevhiddersleri #sosyalmescid
+            </p>
+        </main>
+        
+
+        <main class="w-2/6 my-8 p-4">
+            <h2 class="text-lg font-semibold mb-4">Əlaqəli Videolar</h2>
+            <div class="space-y-4">
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+                <a href="video-details.html" class="flex space-x-3 mb-16">
+                    <img class="w-32 h-20 object-cover rounded-md" src="https://i.ytimg.com/vi/cMBbjQgOFX0/hqdefault.jpg" alt="Video Thumbnail">
+                    <div>
+                        <h3 class="text-sm font-medium">Video Başlığı 1</h3>
+                        <p class="text-xs text-gray-500">Kanal Adı</p>
+                        <p class="text-xs text-gray-500">10K baxış • 1 gün əvvəl</p>
+                    </div>
+                </a>
+            </div>
+        </main>
+        
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let sidebar = document.getElementById("sidebar");
+            let menuBtn = document.getElementById("menu-btn");
+            let sidebarState = localStorage.getItem("sidebarState");
+            let allSpans = sidebar.querySelectorAll("span");
+
+            function hideSpans() {
+                allSpans.forEach(span => span.classList.add("hidden"));
+            }
+
+            function showSpans() {
+                allSpans.forEach(span => span.classList.remove("hidden"));
+            }
+
+            if (sidebarState === "open") {
+                sidebar.classList.add("md:w-64", "w-full");
+                showSpans();
+            } else {
+                sidebar.classList.add("w-24", "overflow-hidden");
+                hideSpans();
+            }
+
+            menuBtn.addEventListener("click", function () {
+                if (sidebar.classList.contains("w-24")) {
+                    sidebar.classList.remove("w-24", "overflow-hidden");
+                    sidebar.classList.add("md:w-64", "w-full");
+                    localStorage.setItem("sidebarState", "open");
+                    showSpans();
+                } else {
+                    sidebar.classList.remove("md:w-64", "w-full");
+                    sidebar.classList.add("w-24", "overflow-hidden");
+                    localStorage.setItem("sidebarState", "closed");
+                    hideSpans();
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,5 +1,5 @@
-const API_KEY = "AIzaSyDfkOf5ukZEt5sGsXHg7qh6iXBd3L7pXIM";
-const CHANNEL_ID = "UCn6c3M9iD_-i0twEX0r2V0g";
+const API_KEY = "";
+const CHANNEL_ID = "";
 const VIDEO_CONTAINER = document.querySelector("main");
 
 async function getChannelLogo() {
